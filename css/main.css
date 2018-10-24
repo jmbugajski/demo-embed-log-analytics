@@ -86,16 +86,19 @@ body {
 	color: #fff;
 	font-size: 12px;
 	padding: 10px 0 0 28px;
+	border-bottom: 1px solid #282828;
 }
 
 .top-header {
 	grid-area: top-header;
 	background-color: #5A2FC2;
+	border-bottom: 1px solid #282828;
 }
 
 .top-right {
 	grid-area: top-right;
 	background-color: #5A2FC2;
+	border-bottom: 1px solid #282828;
 }
 
 .center-embed {
