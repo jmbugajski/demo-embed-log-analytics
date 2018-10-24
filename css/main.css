@@ -82,11 +82,10 @@ body {
 .top-left {
 	grid-area: top-left;
 	background-color: #5A2FC2;
-	height: 72px;
 	text-align: left;
 	color: #fff;
 	font-size: 12px;
-	padding: 4px 0 0 28px;
+	padding: 10px 0 0 28px;
 }
 
 .top-header {
