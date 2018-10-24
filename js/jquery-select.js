@@ -14,17 +14,7 @@ $(document).ready(function () {
 		var encodedUrl = encodeURIComponent(textInput);
 		var urlFinal = urlPart1 + encodedUrl + urlPart2 + encodedUrl + urlPart3
 		$('#looker-frame').attr('src', urlFinal);
-		return false; 
-	});
-
-	// Change Overview Button URL when Test Store Group Selected
-	$('[name="store-11"]').change(function() {
-		if($(this).is(":checked")) {
-			$("#product-and-store").html("<a target='iframe_a' href='https://35.227.249.152/embed/dashboards/24'><span>By Product & Store</span></a>");
-		}
-		if(!$(this).is(':checked')) {
-			$("#product-and-store").html("<a target='iframe_a' href='https://35.227.249.152/embed/dashboards/25'><span>By Product & Store</span></a>");
-		}
+			return false; 
 	});
 
 });
